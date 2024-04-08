@@ -1,0 +1,21 @@
+[MERGE]
+CREATURES
+UG_A07 : 2-DrainMite-{Ignorecycle}-3
+UG_A22 : 4-DrainMite-{Ignorecycle}-3
+UG_GUTTER01 : 3-DrainMite-{Ignorecycle}-2, 3-DrainMite-{Night}
+UG_RIVSTART : 2-DrainMite-{Ignorecycle}-2, 2-DrainMite-{Night}-2
+UG_C01 : 7-DrainMite-{Ignorecycle}-3, 7-DrainMite-{Night}
+UG_DARK01 : 3-DrainMite-{Ignorecycle}, 3-DrainMite-{Night}
+
+(Saint)UG_A07 : 2-DrainMite-{Ignorecycle}
+(Saint)UG_A25 : 4-DrainMite-{Ignorecycle}-2
+(Saint)UG_GUTTER01 : 3-DrainMite-{Ignorecycle}-2, 3-DrainMite-{Night}-2
+(Saint)UG_RIVSTART : 2-DrainMite-2
+(Saint)UG_C01 : 7-DrainMite-{Ignorecycle}, 7-DrainMite-{Night}
+(Saint)UG_DARK01 : 3-DrainMite-{Ignorecycle}
+END CREATURES
+[ENDMERGE]
+
+//Drain Mite numbers
+//Saint - 23 + <8>
+//Everyone else - 14 + <5>

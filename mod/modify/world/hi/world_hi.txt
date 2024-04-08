@@ -1,0 +1,15 @@
+[MERGE]
+CREATURES
+(Rivulet)HI_A28 : 3-DrainMite
+(Rivulet)HI_C15 : 4-DrainMite-2
+(Saint)HI_A28 : 3-DrainMite-2
+
+(Rivulet)HI_A28 : 3-DrainMite-{PreCycle}
+(Rivulet)HI_C15 : 3-DrainMite-{PreCycle}-2
+END CREATURES
+[ENDMERGE]
+
+//Drain Mite numbers
+//Rivulet - 3 + {3}
+//Saint - 2
+//Everyone else - 0

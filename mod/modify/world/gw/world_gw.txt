@@ -1,0 +1,20 @@
+[MERGE]
+CREATURES
+(Spear)GW_B09_PAST : 3-DrainMite-4
+(Rivulet)GW_D02 : 4-DrainMite-2
+(Rivulet)GW_E01 : 6-DrainMite-3
+(Saint)GW_D02 : 5-DrainMite-2
+(Saint)GW_D02 : 5-DrainMite-{Night}-2
+(Saint)GW_D02 : 5-DrainMite-{Ignorecycle}-2
+
+(Spear)GW_PIPE02 : 2-DrainMite-{PreCycle}-3
+(Rivulet)GW_D02 : 4-DrainMite-{PreCycle}
+(Rivulet)GW_E01 : 6-DrainMite-{PreCycle}-3
+END CREATURES
+[ENDMERGE]
+
+//Drain Mite numbers
+//Spearmaster - 4 + {3}
+//Rivulet - 5 + {4}
+//Saint - 4 + <2>
+//Everyone else - 0

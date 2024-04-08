@@ -1,0 +1,25 @@
+[MERGE]
+CREATURES
+DS_RIVSTART : 2-DrainMite-2
+DS_GUTTER01 : 3-DrainMite-2
+(X-Spear,Artificer)DS_A02 : 3-DrainMite-2, 3-Eel-{PreCycle}
+(Rivulet)DS_A02 : 3-DrainMite-2
+(Rivulet)DS_GUTTER01 : 3-DrainMite
+
+(X-Rivulet)DS_GUTTER01 : 3-DrainMite-{PreCycle}-2
+(Rivulet)DS_GUTTER01 : 3-DrainMite-{PreCycle}
+DS_RIVSTART : 2-DrainMite-{PreCycle}-2
+(Yellow,Rivulet)DS_GUTTER04 : 5-DrainMite-{PreCycle}-3
+END CREATURES
+[ENDMERGE]
+
+//Drain Mite numbers
+//Spearmaster - 4 + {4}
+//Artificer - 4 + {4}
+//Hunter - 6 + {4}
+//Gourmand - 6 + {4}
+//Survivor - 6 + {4}
+//Monk - 6 + {7}
+//Rivulet - 9 + {6}
+//Saint - Region is inaccessible (6 + {4})
+//Inv - 6 + {4}

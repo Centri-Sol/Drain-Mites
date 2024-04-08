@@ -1,0 +1,16 @@
+[MERGE]
+CREATURES
+(Saint)MS_ARTERY02 : 5-DrainMite-4
+(Saint)MS_ARTERY02 : 5-DrainMite-4
+(Saint)MS_ARTERY04 : 6-DrainMite-5
+(Saint)MS_ARTERY06 : 5-DrainMite-5
+(Saint)MS_VENT04 : 13-DrainMite-3
+(Saint)MS_VENT15 : 8-DrainMite-3
+(Saint)MS_VENT18 : 4-DrainMite-5
+(Saint)MS_O05 : 6-DrainMite-4
+END CREATURES
+[ENDMERGE]
+
+//Drain Mite numbers
+//Saint - 33
+//Everyone else - 0

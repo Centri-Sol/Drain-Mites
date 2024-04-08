@@ -1,0 +1,19 @@
+[MERGE]
+CREATURES
+(Yellow)SL_TUNNELA : 5-DrainMite-2
+(Rivulet)SL_D02 : 4-DrainMite-3
+(Rivulet)SL_C07 : 5-DrainMite-3
+(Rivulet)SL_C15 : 2-DrainMite-3
+
+(Yellow)SL_TUNNELA : 5-DrainMite-{PreCycle}
+(Yellow)SL_D02 : 4-DrainMite-{PreCycle}
+(Rivulet)SL_TUNNELA : 5-DrainMite-{PreCycle}-3
+(Rivulet)SL_E02 : 4-DrainMite-{PreCycle}-3
+(Rivulet)SL_C07 : 3-DrainMite-{PreCycle}, 4-DrainMite-{PreCycle}-2
+END CREATURES
+[ENDMERGE]
+
+//Drain Mite numbers
+//Monk - 2 + {2}
+//Rivulet - 9 + {9}
+//Everyone else - 0

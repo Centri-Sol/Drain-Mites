@@ -1,0 +1,19 @@
+[MERGE]
+CREATURES
+(Rivulet)SB_D04 : 4-DrainMite-3
+(Rivulet)SB_G04 : 6-DrainMite-3
+(Saint)SB_D04 : 4-DrainMite-{Ignorecycle}-2
+(Saint)SB_F02 : 7-DrainMite-{Ignorecycle}-3, 7-DrainMite-{Night}
+(Saint)SB_E07 : 5-DrainMite-{Ignorecycle}, 5-DrainMite-{Night}-2
+(Saint)SB_G04 : 5-DrainMite-{Ignorecycle}, 5-DrainMite-{Night}
+(Saint)SB_C10 : 16-DrainMite-{Ignorecycle}, 16-DrainMite-{Night}-2
+(Saint)SB_J10 : 5-DrainMite-{Ignorecycle}-4
+
+(Rivulet)SB_F02 : 5-DrainMite-{PreCycle}-2
+END CREATURES
+[ENDMERGE]
+
+//Drain Mite numbers
+//Rivulet - 6 + {2}
+//Saint - 12 + <6>
+//Everyone else - 0

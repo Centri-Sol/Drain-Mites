@@ -1,0 +1,453 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    
+    <PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+        <LangVersion>11</LangVersion>
+		<PathMap>$(MSBuildProjectDirectory)=\RainWorldMods\DrainMites</PathMap>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <Reference Include="..\lib\0Harmony.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\0Harmony20.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Accessibility.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\BepInEx.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\BepInEx.Harmony.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\BepInEx.Preloader.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\com.rlabrecque.steamworks.net.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Fisobs.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Hailstorm.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\HarmonyXInterop.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\HOOKS-Assembly-CSharp.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Microsoft.Win32.Registry.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Mono.Cecil.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Mono.Cecil.Mdb.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Mono.Cecil.Pdb.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Mono.Cecil.Rocks.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Mono.Data.Sqlite.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Mono.Posix.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Mono.Security.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Mono.WebBrowser.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\MonoMod.Common.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\MonoMod.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\MonoMod.RuntimeDetour.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\MonoMod.Utils.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\mscorlib.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\netstandard.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Newtonsoft.Json.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Novell.Directory.Ldap.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\PUBLIC-Assembly-CSharp.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Purchasing.Common.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Rewired.Runtime.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Rewired_Core.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Rewired_Windows.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\SlugBase.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\SonyNP.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\SonyPS4CommonDialog.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\SonyPS4SaveData.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\SonyPS4SavedGames.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Addressables.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Analytics.DataPrivacy.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Burst.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Burst.Unsafe.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Mathematics.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.MemoryProfiler.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.ResourceManager.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.ScriptableBuildPipeline.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Analytics.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.Analytics.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.Configuration.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.Device.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.Environments.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.Environments.Internal.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.Internal.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.Networking.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.Registration.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.Scheduler.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.Telemetry.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Services.Core.Threading.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.TextMeshPro.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\Unity.Timeline.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.AccessibilityModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Advertisements.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.AIModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.AndroidJNIModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.AnimationModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.ARModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.AssetBundleModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.AudioModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.ClothModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.ClusterInputModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.ClusterRendererModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.CoreModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.CrashReportingModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.DirectorModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.DSPGraphModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.GameCenterModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.GIModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.GridModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.HotReloadModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.ImageConversionModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.IMGUIModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.InputLegacyModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.InputModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.JSONSerializeModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.LocalizationModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Monetization.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.ParticleSystemModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.PerformanceReportingModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Physics2DModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.PhysicsModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.ProfilerModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Purchasing.AppleCore.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Purchasing.AppleMacosStub.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Purchasing.AppleStub.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Purchasing.Codeless.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Purchasing.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Purchasing.SecurityCore.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Purchasing.SecurityStub.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Purchasing.Stores.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Purchasing.WinRTCore.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.Purchasing.WinRTStub.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.ScreenCaptureModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.SharedInternalsModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.SpatialTracking.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.SpriteMaskModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.SpriteShapeModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.StreamingModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.SubstanceModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.SubsystemsModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.TerrainModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.TerrainPhysicsModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.TextCoreModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.TextRenderingModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.TilemapModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.TLSModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UI.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UIElementsModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UIElementsNativeModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UIModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UmbraModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UNETModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UnityAnalyticsCommonModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UnityAnalyticsModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UnityConnectModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UnityCurlModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UnityTestProtocolModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UnityWebRequestAssetBundleModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UnityWebRequestAudioModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UnityWebRequestModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UnityWebRequestTextureModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.UnityWebRequestWWWModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.VehiclesModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.VFXModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.VideoModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.VirtualTexturingModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.VRModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.WindModule.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.XR.LegacyInputHelpers.dll">
+          <Private>false</Private>
+        </Reference>
+        <Reference Include="..\lib\UnityEngine.XRModule.dll">
+          <Private>false</Private>
+        </Reference>
+    </ItemGroup>
+    
+    <Target Name="GenerateMod" AfterTargets="PostBuildEvent">
+		<ItemGroup>
+			<RemovePlugins Include="../mod/newest/plugins/*.dll" />
+			<RemovePdbs Include="$(OutDir)*.pdb" />
+		</ItemGroup>
+		
+		<ItemGroup>
+			<CopyPlugins Include="$(TargetPath)" />
+			<CopyPdbs Include="$(OutDir)*.pdb" />
+		</ItemGroup>
+		
+        <Delete Files="@(RemovePlugins)" />
+        <Copy SourceFiles="@(CopyPlugins);@(CopyPdbs)" DestinationFolder="../mod/newest/plugins/" />
+    </Target>
+    
+</Project>

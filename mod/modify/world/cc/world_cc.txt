@@ -1,0 +1,51 @@
+[MERGE]
+CREATURES
+//Normal spawns
+CC_STRAINER02 : 6-DrainMite-2-{Ignorecycle}
+(X-Rivulet,Saint,Inv)CC_STRAINER02 : 6-DrainMite-{Ignorecycle}
+(Artificer)CC_STRAINER02 : 6-DrainMite-{Ignorecycle}
+(Spear,Inv)CC_STRAINER02 : 6-DrainMite-2-{Ignorecycle}
+
+(X-Inv)CC_SUMP05 : 5-DrainMite-3-{Ignorecycle}
+(X-Rivulet,Saint,Inv)CC_SUMP05 : 5-DrainMite-2-{Ignorecycle}
+(Spear)CC_SUMP05 : 5-DrainMite-2-{Ignorecycle}
+
+(X-Inv)CC_STRAINER01 : 2-DrainMite-2-{Ignorecycle}
+(X-Rivulet,Inv)CC_STRAINER01 : 2-DrainMite-{Ignorecycle}
+(Spear,Artificer)CC_STRAINER01 : 2-DrainMite-{Ignorecycle}
+
+(Spear)CC_SUMP03 : 11-DrainMite-4-{Ignorecycle}
+(Artificer)CC_SUMP03 : 11-DrainMite-2-{Ignorecycle}
+
+(Rivulet)CC_SHAFT02 : 2-DrainMite-2
+(Rivulet)CC_C11 : 4-DrainMite-3
+(Rivulet)CC_C08 : 6-DrainMite-2
+
+//Pre-cycle spawns
+(X-Rivulet,Saint,Inv)CC_SUMP05 : 5-DrainMite-2-{PreCycle}
+(Rivulet)CC_SUMP05 : 5-DrainMite-2-{PreCycle}
+(X-Rivulet,Saint,Inv)CC_SHAFT02 : 2-DrainMite-3-{PreCycle}
+(Rivulet)CC_STRAINER01 : 2-DrainMite-{PreCycle}
+(Rivulet)CC_C11 : 4-DrainMite-2-{PreCycle}
+(Rivulet)CC_C08 : 6-DrainMite-{PreCycle}
+(Rivulet)CC_B01 : 4-DrainMite-2-{PreCycle}
+(Gourmand,White,Yellow)CC_C11 : 4-DrainMite-3-{PreCycle}
+
+//Saint spawns
+(Saint)CC_SUMP03 : 11-DrainMite-3
+(Saint)CC_SUMP05 : 5-DrainMite-4-{Night}
+(Saint)CC_STRAINER01 : 2-DrainMite-2-{Night}
+(Saint)CC_STRAINER02 : 6-DrainMite-2-{Night}
+END CREATURES
+[ENDMERGE]
+
+//Drain Mite numbers
+//Spearmaster - 20 + {5}
+//Artificer - 15 + {5}
+//Hunter - 11 + {5}
+//Gourmand - 11 + {8}
+//Survivor - 11 + {8}
+//Monk - 11 + {8}
+//Rivulet - 14 + {8}
+//Saint - 11 + <8>
+//Inv - 4

@@ -1,0 +1,22 @@
+{"frames": {
+
+"Kill_Drain_Mite.png":
+{
+	"frame": {"x":0,"y":0,"w":28,"h":17},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":17},
+	"sourceSize": {"w":28, "h":17}
+}
+
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "sprites.png",
+	"format": "RGBA8888",
+	"size": {"w":28,"h":17},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:973378c2cb09336e50b99b24f9f25ab6:7fdaa0b1b36e0d28f35d253cba055c9f:9eaa3507303827772746237d9f0342b5$"
+}
+}

@@ -1,0 +1,41 @@
+[MERGE]
+CREATURES
+(Spear,Artificer)VS_D03 : 3-DrainMite-2
+(X-Spear,Artificer,Red,Gourmand,Saint,Inv)VS_D01 : 4-DrainMite-2
+(Yellow)VS_D01 : 4-DrainMite-2
+(X-Saint,Inv)VS_H02 : 8-DrainMite-4
+(Spear,Artificer,Red)VS_F01 : 9-DrainMite-3
+(Gourmand,Rivulet)VS_F01 : 9-DrainMite-2
+(Rivulet)VS_A15 : 7-DrainMite-2
+(Rivulet,Saint)VS_H01 : 3-DrainMite-3
+(Inv)VS_D02 : 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1
+(Inv)VS_E01 : 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1
+(Inv)VS_C08 : 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 6-DrainMite-1, 6-DrainMite-1, 6-DrainMite-1, 6-DrainMite-1, 6-DrainMite-1
+(Inv)VS_D05 : 6-DrainMite-1, 6-DrainMite-1, 6-DrainMite-1, 6-DrainMite-1, 6-DrainMite-1, 7-DrainMite-1, 7-DrainMite-1, 7-DrainMite-1, 7-DrainMite-1, 7-DrainMite-1, 8-DrainMite-1, 8-DrainMite-1, 8-DrainMite-1, 8-DrainMite-1, 8-DrainMite-1
+(Inv)VS_A15 : 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 7-DrainMite-1, 7-DrainMite-1, 7-DrainMite-1, 7-DrainMite-1, 7-DrainMite-1
+(Inv)VS_B13 : 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1
+(Inv)VS_B14 : 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1
+(Inv)VS_B15 : 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 4-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1, 5-DrainMite-1
+(Inv)VS_A10 : 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1
+(Inv)VS_A09 : 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1, 2-DrainMite-1
+(Inv)VS_D03 : 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1, 3-DrainMite-1
+
+(X-Rivulet,Saint,Inv)VS_F01 : 7-DrainMite-{PreCycle}-3
+(Rivulet)VS_F01 : 7-DrainMite-{PreCycle}-6
+(Saint)VS_E06 : 7-DrainMite-{PreCycle}-3
+(Spear,Artificer,Gourmand)VS_A05 : 2-DrainMite-{PreCycle}-3
+(White,Yellow,Riv)VS_D01 : 4-DrainMite-{PreCycle}
+(Spear,Gourmand)VS_D03 : 3-DrainMite-{PreCycle}-2
+END CREATURES
+[ENDMERGE]
+
+//Drain Mite numbers
+//Spearmaster - 9 + {8}
+//Artificer - 9 + {6}
+//Hunter - 7 + {3}
+//Gourmand - 6 + {8}
+//Survivor - 6 + {4}
+//Monk - 8 + {4}
+//Rivulet - 13 + {10}
+//Saint - 3 + {3}
+//Inv - 180

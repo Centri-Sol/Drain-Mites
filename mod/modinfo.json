@@ -1,0 +1,10 @@
+﻿{
+	"id": "drainmites",
+	"name": "Drain Mites",
+	"version": "1.0",
+	"authors": "Bry",
+	"description": "Adds a new jumpy critter for use in regions, as well as some Arena fun if you're into that.\nWith this mod alone, you can find Drain Mites in Drainage System, Pipeyard, the Gutter, and more! There's also an Arena unlock placed for them somewhere.\n[u]If you use the More Slugcats Expansion with this mod, make sure that you put it below this mod in the Remix menu. If you don't do this, Drain Mites spawns won't work.[/u]\n\nInfo for if you want to use these guys in a region:\nDrain Mites use the Offscreen den and Scavenger tunnels in a similar manner to Scavengers. You can put them in regular dens, but they'll just find their way back to the Offscreen den at the end of a cycle and start using that, instead.",
+	"requirements": [ "fisobs" ],
+	"requirements_names": [ "Fisobs" ],
+	"tags": [ "Creatures" ]
+}

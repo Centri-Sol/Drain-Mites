@@ -1,0 +1,3 @@
+[MERGE]
+PlacedObjects: BlueToken><990.5189><586.3009><-6~43~215~-28~1~DrainMite~~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0~0, DeadTokenStalk><977.6586><580.1216><-9~49, DeadTokenStalk><1004.695><600.045><1~30, DeadTokenStalk><1034.056><582.5483><-6~46, 
+[ENDMERGE]

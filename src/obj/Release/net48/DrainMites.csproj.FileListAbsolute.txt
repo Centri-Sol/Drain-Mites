@@ -1,0 +1,9 @@
+C:\Users\brycc\Desktop\The Incandescent\DrainMites\src\bin\Release\net48\DrainMites.dll
+C:\Users\brycc\Desktop\The Incandescent\DrainMites\src\bin\Release\net48\DrainMites.pdb
+C:\Users\brycc\Desktop\The Incandescent\DrainMites\src\obj\Release\net48\DrainMites.csproj.AssemblyReference.cache
+C:\Users\brycc\Desktop\The Incandescent\DrainMites\src\obj\Release\net48\DrainMites.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brycc\Desktop\The Incandescent\DrainMites\src\obj\Release\net48\DrainMites.AssemblyInfoInputs.cache
+C:\Users\brycc\Desktop\The Incandescent\DrainMites\src\obj\Release\net48\DrainMites.AssemblyInfo.cs
+C:\Users\brycc\Desktop\The Incandescent\DrainMites\src\obj\Release\net48\DrainMites.csproj.CoreCompileInputs.cache
+C:\Users\brycc\Desktop\The Incandescent\DrainMites\src\obj\Release\net48\DrainMites.dll
+C:\Users\brycc\Desktop\The Incandescent\DrainMites\src\obj\Release\net48\DrainMites.pdb

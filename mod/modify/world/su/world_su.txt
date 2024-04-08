@@ -1,0 +1,12 @@
+[MERGE]
+CREATURES
+(Yellow)SU_A04 : 2-DrainMite-{PreCycle}-2
+(Rivulet)SU_A04 : 2-DrainMite, 2-DrainMite-{PreCycle}, 2-Eel-{PreCycle}
+(Rivulet)LINEAGE : SU_A04 : 2 : NONE-0.3, EggBug-0.5, DrainMite-0
+END CREATURES
+[ENDMERGE]
+
+//Drain Mite numbers
+//Monk - {2}
+//Rivulet - 1 + {1} + 1lin
+//Everyone else - 0
